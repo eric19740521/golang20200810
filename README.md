@@ -1,6 +1,6 @@
-#golang&testing單元測試
+# golang&testing單元測試
 
-##參考資料:
+## 參考資料:
 https://books.studygolang.com/The-Golang-Standard-Library-by-Example/chapter09/09.1.html
 https://ithelp.ithome.com.tw/articles/10204692
 
@@ -22,7 +22,7 @@ func TestXxx(*testing.T)
 注意：Xxx 可以是任何字母数字字符串，但是第一个字母不能是小写字母。
 
 
-##1.package main 測試
+## 1.package main 測試
 
  1)func 在同一個main.go,
    go build main.go 或是go build  
@@ -35,7 +35,7 @@ func TestXxx(*testing.T)
 
    ==> package u001	
 
-##2.package util包 測試
+## 2.package util包 測試
 
 go test -v 
 go test -v -cover=true      測試涵蓋率
@@ -58,7 +58,7 @@ git clone https://github.com/eric19740521/golang20200810.git
 
 7.git push 上傳吧
 
-##如果檔案有修改後,才上傳
+## 如果檔案有修改後,才上傳
 1.git add readme.md
-2.git commit -a "修改"
+2.git commit -m "修改"
 3.git push
