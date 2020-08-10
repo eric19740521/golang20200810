@@ -1,8 +1,8 @@
 # golang&testing單元測試
 
 #### 參考資料:
->https://books.studygolang.com/The-Golang-Standard-Library-by-Example/chapter09/09.1.html  
->https://ithelp.ithome.com.tw/articles/10204692
+1. https://books.studygolang.com/The-Golang-Standard-Library-by-Example/chapter09/09.1.html  
+2. https://ithelp.ithome.com.tw/articles/10204692
 
 
 
